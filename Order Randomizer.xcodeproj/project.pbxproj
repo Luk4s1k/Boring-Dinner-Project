@@ -15,6 +15,9 @@
 		B065B0EA26E0EDF1003489A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B065B0E826E0EDF1003489A6 /* LaunchScreen.storyboard */; };
 		B065B0F526E0EDF1003489A6 /* Order_RandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065B0F426E0EDF1003489A6 /* Order_RandomizerTests.swift */; };
 		B065B10026E0EDF1003489A6 /* Order_RandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065B0FF26E0EDF1003489A6 /* Order_RandomizerUITests.swift */; };
+		B065B10F26E0EE8D003489A6 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065B10E26E0EE8D003489A6 /* Restaurant.swift */; };
+		B065B11226E0F618003489A6 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065B11126E0F618003489A6 /* RestaurantView.swift */; };
+		B065B11526E108D3003489A6 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065B11426E108D3003489A6 /* RestaurantViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B065B0FB26E0EDF1003489A6 /* Order RandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Order RandomizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B065B0FF26E0EDF1003489A6 /* Order_RandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order_RandomizerUITests.swift; sourceTree = "<group>"; };
 		B065B10126E0EDF1003489A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B065B10E26E0EE8D003489A6 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		B065B11126E0F618003489A6 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		B065B11426E108D3003489A6 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		B065B0DC26E0EDEE003489A6 /* Order Randomizer */ = {
 			isa = PBXGroup;
 			children = (
+				B065B11026E0F5FE003489A6 /* Views */,
+				B065B10D26E0EE3C003489A6 /* Models */,
 				B065B0DD26E0EDEE003489A6 /* AppDelegate.swift */,
 				B065B0DF26E0EDEE003489A6 /* SceneDelegate.swift */,
 				B065B0E126E0EDEE003489A6 /* ViewController.swift */,
@@ -126,6 +134,23 @@
 				B065B10126E0EDF1003489A6 /* Info.plist */,
 			);
 			path = "Order RandomizerUITests";
+			sourceTree = "<group>";
+		};
+		B065B10D26E0EE3C003489A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B065B10E26E0EE8D003489A6 /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B065B11026E0F5FE003489A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B065B11126E0F618003489A6 /* RestaurantView.swift */,
+				B065B11426E108D3003489A6 /* RestaurantViewModel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B065B10F26E0EE8D003489A6 /* Restaurant.swift in Sources */,
+				B065B11526E108D3003489A6 /* RestaurantViewModel.swift in Sources */,
 				B065B0E226E0EDEE003489A6 /* ViewController.swift in Sources */,
 				B065B0DE26E0EDEE003489A6 /* AppDelegate.swift in Sources */,
+				B065B11226E0F618003489A6 /* RestaurantView.swift in Sources */,
 				B065B0E026E0EDEE003489A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
